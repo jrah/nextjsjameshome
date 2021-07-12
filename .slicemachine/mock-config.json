@@ -6,7 +6,13 @@
           "description": {
             "config": {
               "patternType": "PARAGRAPH",
-              "blocks": 4
+              "blocks": 2
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
             }
           }
         }

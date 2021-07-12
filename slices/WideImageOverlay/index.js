@@ -11,11 +11,6 @@ const MySlice = ({ slice }) => (
       }
     </span>
     {
-        slice.primary.text ?
-        <RichText render={slice.primary.text}/>
-        : <h2>Template slice, update me!</h2>
-      }
-    {
       slice.primary.description ?
       <RichText render={slice.primary.description}/>
       : <p>start by editing this slice from inside the SliceMachine builder!</p>

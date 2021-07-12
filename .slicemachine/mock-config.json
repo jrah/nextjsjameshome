@@ -1,0 +1,16 @@
+{
+  "slices": {
+    "WideImageOverlay": {
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 4
+            }
+          }
+        }
+      }
+    }
+  }
+}

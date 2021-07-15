@@ -28,9 +28,33 @@
             "allowTargetBlank": true,
             "single": "paragraph"
           }
+        },
+        "image": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
         }
       },
       "items": {
+        "heading": {
+          "config": {
+            "label": "",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "test": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
         "image": {
           "config": {
             "label": "",

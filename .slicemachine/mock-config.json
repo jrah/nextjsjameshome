@@ -14,6 +14,23 @@
               "patternType": "HEADING",
               "blocks": 1
             }
+          },
+          "image": {
+            "content": "https://images.prismic.io/jameshome/bf2ddacc-71be-4a0e-8246-c67548d58dad_price.png"
+          }
+        },
+        "items": {
+          "image": {
+            "content": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f"
+          },
+          "heading": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 8
+            }
+          },
+          "test": {
+            "content": 1997
           }
         }
       }

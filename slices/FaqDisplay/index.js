@@ -16,8 +16,7 @@ const Accordion = ({ children, title, isExpand = false }) => {
   );
 };
 
-const FaqDisplay = ({ slice, isExpand = false }) => {
-  const [expand, setExpand] = useState(0);
+const FaqDisplay = ({ slice }) => {
   return (
     <section>
       <span className="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">

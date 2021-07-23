@@ -27,18 +27,24 @@ const FaqDisplay = ({ slice, isExpand = false }) => {
           <h2>Template slice, update me!</h2>
         )}
       </span>
-      {slice.primary.description ? (
-        <RichText render={slice.primary.description} />
-      ) : (
-        <p>start by editing this slice from inside Prismic builder!</p>
-      )}
-      {slice?.items?.map((item, i) => (
-        <div key={i}>
-          <Accordion title={item.heading}>
-            <RichText render={item.content} />
-          </Accordion>
-        </div>
-      ))}
+      <div className="text-center mt-1">
+        {slice.primary.description ? (
+          <RichText render={slice.primary.description} />
+        ) : (
+          <p>start by editing this slice from inside Prismic builder!</p>
+        )}
+      </div>
+      <div className="mx-auto max-w-3xl mt-4 border-t-2">
+        {slice?.items?.map((item, i) => (
+          <div key={i} className="py-6 border-b">
+            <Accordion title={item.heading}>
+              <div className="mt-2 text-gray-700">
+                <RichText render={item.content} />
+              </div>
+            </Accordion>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };

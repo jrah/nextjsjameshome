@@ -8,14 +8,14 @@
         "content": [
           {
             "type": "paragraph",
-            "text": "Mollit eu commodo qui id.",
+            "text": "Exercitation quis proident duis Lorem exercitation amet nulla sunt in ipsum et commodo proident mollit. Amet ex dolore sint aute deserunt fugiat nulla non proident quis laboris ex elit.",
             "spans": []
           }
         ],
         "heading": [
           {
             "type": "heading3",
-            "text": "Integrate out-of-the-box partnerships",
+            "text": "Maximize out-of-the-box networks",
             "spans": []
           }
         ]
@@ -24,14 +24,14 @@
         "content": [
           {
             "type": "paragraph",
-            "text": "Voluptate anim veniam anim reprehenderit sunt ullamco commodo est veniam sunt. Aliquip nulla aute pariatur commodo.",
+            "text": "Deserunt elit in dolore proident consequat commodo ex occaecat voluptate sit velit. In esse laborum fugiat nulla ad ex tempor aliquip. Ad veniam ea incididunt excepteur culpa Lorem enim.",
             "spans": []
           }
         ],
         "heading": [
           {
             "type": "heading3",
-            "text": "Reinvent holistic relationships",
+            "text": "Innovate seamless infrastructures",
             "spans": []
           }
         ]
@@ -40,14 +40,14 @@
         "content": [
           {
             "type": "paragraph",
-            "text": "Deserunt tempor anim elit incididunt ullamco reprehenderit est esse ipsum do labore laborum consequat. Minim nisi Lorem do ullamco velit nostrud sint officia magna amet.",
+            "text": "Enim cillum est exercitation irure pariatur minim dolore consequat pariatur.",
             "spans": []
           }
         ],
         "heading": [
           {
             "type": "heading3",
-            "text": "Mesh scalable deliverables",
+            "text": "Visualize best-of-breed communities",
             "spans": []
           }
         ]
@@ -56,14 +56,46 @@
         "content": [
           {
             "type": "paragraph",
-            "text": "Culpa commodo commodo excepteur quis nulla consectetur elit nostrud cillum sint ut et do. Nulla voluptate aute irure ullamco. Voluptate aute pariatur ea anim excepteur ut reprehenderit in nostrud amet consequat laboris.",
+            "text": "Ad ea exercitation nostrud cupidatat dolor.",
             "spans": []
           }
         ],
         "heading": [
           {
             "type": "heading3",
-            "text": "Cultivate best-of-breed users",
+            "text": "Reinvent efficient applications",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Aliqua consequat ut aliquip eu minim in est dolor.",
+            "spans": []
+          }
+        ],
+        "heading": [
+          {
+            "type": "heading3",
+            "text": "Innovate efficient e-services",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Elit reprehenderit consequat dolor sunt ea tempor velit est do exercitation deserunt elit sit ut eiusmod. Est proident cupidatat consequat non cupidatat in occaecat in et aute laborum ut minim incididunt. Deserunt officia aute occaecat esse excepteur proident laborum labore.",
+            "spans": []
+          }
+        ],
+        "heading": [
+          {
+            "type": "heading3",
+            "text": "Matrix efficient mindshare",
             "spans": []
           }
         ]
@@ -73,14 +105,69 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Incubate transparent e-business",
+          "text": "Transition ubiquitous applications",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Nisi cupidatat qui anim sit veniam aliqua nisi nostrud commodo voluptate dolore culpa.",
+          "text": "Quis dolore cupidatat non ex.",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "staticFaq",
+    "name": "Static FAQ",
+    "slice_type": "faq_display",
+    "items": [
+      {
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Magna culpa nulla commodo proident ipsum mollit eiusmod est. Dolor do velit Lorem mollit fugiat.",
+            "spans": []
+          }
+        ],
+        "heading": [
+          {
+            "type": "heading3",
+            "text": "Matrix magnetic networks",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Tempor ut mollit laboris occaecat est enim duis sunt. Pariatur cupidatat ipsum nostrud dolore ex ea nostrud ad qui duis exercitation est in Lorem.",
+            "spans": []
+          }
+        ],
+        "heading": [
+          {
+            "type": "heading3",
+            "text": "Scale synergistic web-readiness",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Optimize 24/7 communities",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Incididunt ea incididunt ex consequat. Aute aliquip occaecat cupidatat fugiat dolor aliquip tempor. Labore dolor ipsum aliqua qui exercitation occaecat adipisicing.",
           "spans": []
         }
       ]

@@ -10,7 +10,9 @@ const MySlice = ({ slice }) => (
         : <h2>Template slice, update me!</h2>
       }
     </span>
-    <img src={slice.primary.image.url} alt={slice.primary.image.alt} />
+    {
+      slice.primary.image ?
+    <img src={slice.primary.image.url} alt={slice.primary.image.alt} /> : null }
     <div className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
     {
       slice.primary.description ?

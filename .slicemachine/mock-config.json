@@ -46,6 +46,18 @@
           }
         }
       }
+    },
+    "FeatureBlock": {
+      "default-slice": {
+        "items": {
+          "heading": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
     }
   }
 }

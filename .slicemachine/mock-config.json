@@ -16,23 +16,10 @@
             }
           },
           "image": {
-            "content": "https://images.prismic.io/jameshome/bf2ddacc-71be-4a0e-8246-c67548d58dad_price.png"
+            "content": "https://jameshome.cdn.prismic.io/jameshome/3b18dc11-7641-4688-b2a6-d6b48b202b1a_undraw_My_documents_re_13dc.svg"
           }
         },
-        "items": {
-          "image": {
-            "content": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f"
-          },
-          "heading": {
-            "config": {
-              "patternType": "HEADING",
-              "blocks": 8
-            }
-          },
-          "test": {
-            "content": 1997
-          }
-        }
+        "items": {}
       }
     },
     "FaqDisplay": {

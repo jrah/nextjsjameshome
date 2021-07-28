@@ -30,7 +30,7 @@ const MySlice = ({ slice }) => (
         <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
           {slice.primary.image ? (
             <img
-              className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+              className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:max-w-none"
               src={slice.primary.image.url}
               alt={slice.primary.image.alt}
             />

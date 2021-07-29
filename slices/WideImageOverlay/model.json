@@ -36,6 +36,13 @@
             "thumbnails": []
           },
           "type": "Image"
+        },
+        "backgroundcolor": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Color"
         }
       },
       "items": {}

@@ -43,6 +43,18 @@
             "placeholder": ""
           },
           "type": "Color"
+        },
+        "shade": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "options": [
+              "dark",
+              "light"
+            ],
+            "default_value": "dark"
+          },
+          "type": "Select"
         }
       },
       "items": {}

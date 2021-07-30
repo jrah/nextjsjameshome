@@ -1,19 +1,19 @@
 import React from "react";
 import { RichText } from "prismic-reactjs";
-
+import Heading from '../../components/heading';
 const MySlice = ({ slice }) => (
   <section className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden background-color">
     <div className="mx-auto max-w-7xl lg:px-8">
       <div className="lg:grid lg:grid-cols-2 lg:gap-8">
         <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
           <div className="lg:py-24">
-            <span className={`${slice.primary.fontshade === 'dark' ? 'font-dark'  : 'font-light' } mt-4 text-4xl tracking-tight font-extrabold text-black sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl`}>
-              {slice.primary.title ? (
+            <Heading shade="light">
+            {slice.primary.title ? (
                 <RichText render={slice.primary.title} />
               ) : (
                 <h2>Template slice, update me!</h2>
               )}
-            </span>
+            </Heading>
             <div className={`${slice.primary.fontshade === 'dark' ? 'font-dark'  : 'font-light' } mt-3 text-base text-gray-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl`}>
               {slice.primary.description ? (
                 <RichText render={slice.primary.description} />

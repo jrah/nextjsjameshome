@@ -17,6 +17,12 @@
           },
           "image": {
             "content": "https://jameshome.cdn.prismic.io/jameshome/3b18dc11-7641-4688-b2a6-d6b48b202b1a_undraw_My_documents_re_13dc.svg"
+          },
+          "shade": {
+            "content": "light"
+          },
+          "backgroundcolor": {
+            "content": "#697689"
           }
         },
         "items": {}

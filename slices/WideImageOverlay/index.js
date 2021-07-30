@@ -1,6 +1,5 @@
 import React from "react";
 import { RichText } from "prismic-reactjs";
-import '../../styles/colors.css';
 
 const MySlice = ({ slice }) => (
   <section className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden background-color">
@@ -15,7 +14,7 @@ const MySlice = ({ slice }) => (
                 <h2>Template slice, update me!</h2>
               )}
             </span>
-            <div className="mt-3 text-base text-gray-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+            <div className={`${slice.primary.fontshade === 'dark' ? 'font-dark'  : 'font-light' } mt-3 text-base text-gray-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl`}>
               {slice.primary.description ? (
                 <RichText render={slice.primary.description} />
               ) : (

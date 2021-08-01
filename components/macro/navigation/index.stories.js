@@ -7,4 +7,4 @@ export default {
   component: Navigation
 };
 
-export const DefaultNavigation = () => <Navigation>Hello</Navigation>
+export const DefaultNavigation = () => <Navigation items={[{text: 'Products'}, {text: 'Company'}, {text: 'Help'}]}>Hello</Navigation>

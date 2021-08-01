@@ -33,7 +33,7 @@
         "linktext": {
           "config": {
             "label": "",
-            "placeholder": ""
+            "placeholder": "Link"
           },
           "type": "Text"
         }

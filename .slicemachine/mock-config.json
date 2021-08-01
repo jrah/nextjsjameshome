@@ -52,5 +52,21 @@
         }
       }
     }
+  },
+  "supplementary": {
+    "NavigationBar": {
+      "default-slice": {
+        "primary": {
+          "logo": {
+            "content": "https://jameshome.cdn.prismic.io/jameshome/ec8e21e5-7c68-4827-9f33-4c4fa3ec8f24_logoipsum-logo-7.svg"
+          }
+        },
+        "items": {
+          "linktext": {
+            "content": "Link"
+          }
+        }
+      }
+    }
   }
 }

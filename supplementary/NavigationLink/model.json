@@ -1,0 +1,94 @@
+{
+  "id": "navigation_link",
+  "type": "SharedSlice",
+  "name": "NavigationLink",
+  "description": "NavigationLink",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "NavigationLink",
+      "primary": {
+        "linktext": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "linkurl": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      },
+      "items": {
+        "linkurl": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "linktext": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    },
+    {
+      "id": "multiLevelNavigation",
+      "name": "Multi-Level Navigation",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "NavigationLink",
+      "primary": {
+        "linktext": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "linkurl": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      },
+      "items": {
+        "linkurl": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "linktext": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

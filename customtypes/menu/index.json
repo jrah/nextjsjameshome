@@ -5,12 +5,33 @@
   "status": true,
   "json": {
     "Main": {
+      "logo": {
+        "config": {
+          "label": "",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "navigation_elements": {
+            "navigation_link": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Footer": {
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "navigation_link": {
               "type": "SharedSlice"
             }
           }

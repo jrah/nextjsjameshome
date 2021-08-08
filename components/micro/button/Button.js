@@ -14,7 +14,6 @@ function Button({ children, type }) {
         )}
         href="#"
       >
-        {type}
         {children}
       </a>
     </div>

@@ -1,8 +1,22 @@
 import React from "react";
-function Button({ children, items }) {
+import classnames from "classnames";
+
+function Button({ children, type }) {
   return (
     <div>
-      <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700" href="#">{children}</a>
+      <a
+        className={classnames(
+          {
+            "text-white bg-indigo-600 hover:bg-indigo-700": type === "primary",
+            " text-indigo-700 bg-indigo-100 hover:bg-indigo-200": (type === null) | type === undefined,
+          },
+          "inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md"
+        )}
+        href="#"
+      >
+        {type}
+        {children}
+      </a>
     </div>
   );
 }

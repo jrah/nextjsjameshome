@@ -8,3 +8,5 @@ export default {
 };
 
 export const DefaultButton = () => <Button>Default button</Button>
+export const PrimaryButton = () => <Button>Primary button</Button>
+

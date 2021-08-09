@@ -7,7 +7,6 @@ function Button({ children, type, outline }) {
       <a
         className={classnames(
           {
-            "border-true": outline,
             "border-transparent": !outline
           },
           {

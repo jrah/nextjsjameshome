@@ -9,4 +9,4 @@ export default {
 
 export const DefaultButton = () => <Button>Default button</Button>
 export const PrimaryButton = () => <Button type="primary">Primary button</Button>
-
+export const AlternateButton = () => <Button type="alternate" outline>Primary button</Button>

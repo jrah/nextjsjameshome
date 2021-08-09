@@ -1,6 +1,6 @@
 import React from "react";
 import { RichText } from "prismic-reactjs";
-import Heading from '../../components/heading';
+import Heading from '../../components/micro/heading/Heading';
 const MySlice = ({ slice }) => (
   <section className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden background-color">
     <div className="mx-auto max-w-7xl lg:px-8">

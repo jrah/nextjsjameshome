@@ -1,7 +1,8 @@
 import React from "react";
 import classnames from "classnames";
+ import { Link } from 'prismic-reactjs'
 
-function Button({ children, type, outline }) {
+function Button({ children, type, outline, data }) {
   return (
     <div>
       <a
@@ -16,7 +17,7 @@ function Button({ children, type, outline }) {
           },
           "inline-flex items-center justify-center px-5 py-3 border text-base font-medium rounded-md"
         )}
-        href="#"
+        href={Link.url(data.linkurl)}
       >
         {children}
       </a>

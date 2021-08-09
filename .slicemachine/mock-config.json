@@ -25,7 +25,11 @@
             "content": "#e6e8df"
           }
         },
-        "items": {}
+        "items": {
+          "linktext": {
+            "content": "Get started"
+          }
+        }
       }
     },
     "FaqDisplay": {

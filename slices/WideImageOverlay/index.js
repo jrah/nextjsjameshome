@@ -1,6 +1,8 @@
 import React from "react";
 import { RichText } from "prismic-reactjs";
-import Heading from '../../components/micro/heading/Heading';
+import Heading from "../../components/micro/heading/Heading";
+import Button from "../../components/micro/button/Button";
+
 const MySlice = ({ slice }) => (
   <section className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden background-color">
     <div className="mx-auto max-w-7xl lg:px-8">
@@ -8,13 +10,19 @@ const MySlice = ({ slice }) => (
         <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
           <div className="lg:py-24">
             <Heading shade={slice.primary.fontshade}>
-            {slice.primary.title ? (
+              {slice.primary.title ? (
                 <RichText render={slice.primary.title} />
               ) : (
                 <h2>Template slice, update me!</h2>
               )}
             </Heading>
-            <div className={`${slice.primary.fontshade === 'dark' ? 'text-gray-800'  : 'text-white' } mt-3 text-base text-gray-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl`}>
+            <div
+              className={`${
+                slice.primary.fontshade === "dark"
+                  ? "text-gray-800"
+                  : "text-white"
+              } mt-3 text-base text-gray-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl`}
+            >
               {slice.primary.description ? (
                 <RichText render={slice.primary.description} />
               ) : (
@@ -23,6 +31,15 @@ const MySlice = ({ slice }) => (
                   builder!
                 </p>
               )}
+            </div>
+            <div className="my-4">
+              {slice?.items?.map((item, i) => (
+                <div className="my-4">
+                  <Button key={i} data={item}>
+                    {item.linktext}
+                  </Button>
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -3,19 +3,41 @@
     "variation": "default-slice",
     "name": "Default slice",
     "slice_type": "wide_image_overlay",
-    "items": [],
+    "items": [
+      {
+        "linkurl": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linktext": "drive turn-key mindshare"
+      },
+      {
+        "linkurl": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linktext": "architect rich infomediaries"
+      },
+      {
+        "linkurl": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "linktext": "orchestrate integrated networks"
+      }
+    ],
     "primary": {
       "title": [
         {
           "type": "heading1",
-          "text": "Implement dynamic deliverables",
+          "text": "Monetize customized methodologies",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Proident incididunt dolor officia labore aliquip irure deserunt fugiat Lorem exercitation sunt. Minim laboris fugiat esse eiusmod aute et tempor occaecat laboris velit non amet voluptate.",
+          "text": "Minim Lorem nulla elit velit tempor voluptate occaecat non eiusmod occaecat irure. Excepteur cillum et proident. Deserunt adipisicing consequat qui est.",
           "spans": []
         }
       ],

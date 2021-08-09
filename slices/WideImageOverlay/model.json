@@ -57,7 +57,24 @@
           "type": "Select"
         }
       },
-      "items": {}
+      "items": {
+        "linkurl": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "select": "web",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "linktext": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
     }
   ]
 }

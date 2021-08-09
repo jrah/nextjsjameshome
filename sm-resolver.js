@@ -1,7 +1,8 @@
 import { Fragment } from 'react'
+import * as Supplementary from './supplementary'
 import * as Slices from './slices'
 
-const __allSlices = {  ...Slices, }
+const __allSlices = {  ...Slices, ...Supplementary, }
 
 const NotFound = ({ sliceName, slice, i }) => {
   console.error(`[sm-resolver] component "${sliceName}" not found at index ${i}.`)

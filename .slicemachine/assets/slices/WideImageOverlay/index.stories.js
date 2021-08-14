@@ -43,7 +43,7 @@ export const _DefaultSlice = () => (
           url:
             "https://jameshome.cdn.prismic.io/jameshome/71b19ee2-626b-41a3-992b-93b3a5e0f745_drawkit-daily-life-vector-illustration-02.svg?w=900&h=500&fit=crop",
         },
-        backgroundcolor: "#e6e8df",
+        backgroundcolor: "#FBF4F4",
         shade: "dark",
       },
       id: "_DefaultSlice",

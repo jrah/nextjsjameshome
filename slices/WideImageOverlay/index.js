@@ -32,14 +32,12 @@ const MySlice = ({ slice }) => (
                 </p>
               )}
             </div>
-            {(slice.items[0].length > 0) && (
+            {(slice.items[0].length > 1) && (
               <div className="my-4">
                 {slice?.items?.map((item, i) => (
-                  <div className="my-4">
                     <Button key={i} data={item}>
                       {item.linktext}
                     </Button>
-                  </div>
                 ))}
               </div>
             )}

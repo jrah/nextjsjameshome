@@ -11,8 +11,8 @@ function Button({ children, type, outline, data }) {
             "border-transparent": !outline
           },
           {
-            "text-white bg-indigo-600 hover:bg-indigo-700": type === "primary",
-            "text-indigo-700 bg-indigo-100 hover:bg-indigo-200":
+            "text-white bg-red-700 hover:bg-indigo-700": type === "primary",
+            "text-red-700 bg-indigo-100 hover:bg-indigo-200":
               type === undefined,
           },
           "inline-flex items-center justify-center px-5 py-3 border text-base font-medium rounded-md"

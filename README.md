@@ -24,4 +24,4 @@ If one button
 If two buttons
 Test contrast ratios
 
-If nothing was ever added in the non-repeatable zone or there was but deleted
+If nothing was ever added in the non-repeatable zone or there was but deleted. Sometimes there is different result.

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'prismic-reactjs'
 function Navigation({ children, items }) {
   return (
-    <nav className="container">
+    <nav>
       <span>{children}</span>
       {items?.map((item, i) => (
         <a href={Link.url(item.primary.linkurl)} key={i}>{item.primary.linktext}</a>

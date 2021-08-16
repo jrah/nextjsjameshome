@@ -11,6 +11,7 @@ const Layout = ({ children, menu }) => {
         </div>
       </div>
       <main>{children}</main>
+      <Navigation items={menu.data.slices1} />
     </div>
   );
 };

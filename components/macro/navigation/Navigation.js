@@ -11,7 +11,7 @@ function Navigation({ children, items }) {
           </a>
         ))}
       {items[0].items[0].linktext != null && (
-        <div>
+        <div className="flex">
           {items?.map((item, j) => (
             <div>
               <a href={Link.url(item.primary.linkurl)} key={j}>

@@ -29,7 +29,7 @@ const FeatureBlock = ({ slice }) => (
               alt={item.image.alt}
             />
           </div>
-          <div class="mt-5 text-lg leading-6 font-medium text-gray-900">
+          <div className="mt-5 text-lg leading-6 font-medium text-gray-900">
             <RichText render={item.heading} />
           </div>
           <div className="mt-2 text-base text-gray-500">

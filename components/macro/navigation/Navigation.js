@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "prismic-reactjs";
+import { Link, RichText } from "prismic-reactjs";
 function Navigation({ children, items }) {
   return (
     <nav>
@@ -7,17 +7,15 @@ function Navigation({ children, items }) {
       {items[0].items[0].linktext === null &&
         items?.map((item, i) => (
           <a href={Link.url(item.primary.linkurl)} key={i}>
-            {item.primary.linktext}
+            <RichText render={item.primary.linktext} />
           </a>
         ))}
       {items[0].items[0].linktext != null && (
         <div className="flex">
           {items?.map((item, j) => (
-            <div>
-              <a href={Link.url(item.primary.linkurl)} key={j}>
-                {item.primary.linktext}
-              </a>
-              <ChildNavLink items={item.items} />
+            <div key={j}>
+              <NavItem item={item.primary} />
+              <ChildNavItem items={item.items} />
             </div>
           ))}
         </div>
@@ -26,7 +24,36 @@ function Navigation({ children, items }) {
   );
 }
 
-const ChildNavLink = ({ items }) => {
+// const NavItem = ({ item }) => {
+//   return (
+//     item.linkurl.url != null && (
+//       <a href={Link.url(item.linkurl)}>
+//         <RichText render={item.linktext} />
+//       </a>
+//     ),
+//     item.linkurl.url === null && (
+//       <span>
+//         <RichText render={item.linktext} />
+//       </span>
+//     )
+//   );
+// };
+
+const NavItem = ({ item }) => {
+  return (
+    <div>
+      {item.linkurl.url ? (
+        <a href={Link.url(item.linkurl)}>
+          <RichText render={item.linktext} />
+        </a>
+      ) : (
+        <RichText render={item.linktext} />
+      )}
+    </div>
+  );
+};
+
+const ChildNavItem = ({ items }) => {
   return (
     <div>
       {items?.map((item, k) => (

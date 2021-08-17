@@ -11,13 +11,6 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "NavigationLink",
       "primary": {
-        "linktext": {
-          "config": {
-            "label": "",
-            "placeholder": ""
-          },
-          "type": "Text"
-        },
         "linkurl": {
           "config": {
             "label": "",
@@ -26,6 +19,15 @@
             "allowTargetBlank": false
           },
           "type": "Link"
+        },
+        "linktext": {
+          "config": {
+            "label": "Link text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "strong"
+          },
+          "type": "StructuredText"
         }
       },
       "items": {

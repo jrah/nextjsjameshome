@@ -58,7 +58,18 @@
     }
   },
   "supplementary": {
-    "NavigationLink": {}
+    "NavigationLink": {
+      "default-slice": {
+        "primary": {
+          "linktext": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
   },
   "_cts": {
     "menu": {
